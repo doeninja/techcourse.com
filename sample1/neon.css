@@ -1,0 +1,35 @@
+<style>/* styles.css */
+.homepage-container {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center; /* Center-align the title */
+}
+
+.neon-title {
+    color: transparent;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #f06, #f90, #f06);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: neon 1.5s linear infinite;
+}
+
+@keyframes neon {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+</style>
